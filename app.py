@@ -8,10 +8,7 @@ from werkzeug.utils import secure_filename
 # Import custom utilities
 
 # Import detection modules
-from detection import (
-    copy_paste, overwrite, added_content, removed_content,
-    merged_doc, watermark, spacing, partial_edit, ai_generated
-)
+
 
 app = Flask(__name__,
             template_folder='templates',
