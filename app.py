@@ -1,8 +1,6 @@
 import os
 import time
-import cv2
 import json
-import numpy as np
 from flask import Flask, request, jsonify, send_from_directory, render_template
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
