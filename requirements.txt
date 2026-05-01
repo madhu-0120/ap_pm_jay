@@ -1,5 +1,4 @@
-Flask==2.3.2
-gunicorn==21.2.0
-Pillow==10.3.0
-Flask-Cors==3.0.10
-Werkzeug==2.3.6
+Flask
+gunicorn
+Flask-Cors
+Werkzeug
