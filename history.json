@@ -1,0 +1,135 @@
+[
+  {
+    "status": "Forged",
+    "confidence": 100,
+    "issues": [
+      {
+        "box": [
+          931,
+          1489,
+          126,
+          95
+        ],
+        "type": "Added Content",
+        "severity": 3,
+        "explanation": "Isolated region with high edge complexity detected, possibly an inserted stamp, seal, signature, or text block that was added after original creation."
+      },
+      {
+        "box": [
+          202,
+          1488,
+          139,
+          85
+        ],
+        "type": "Added Content",
+        "severity": 3,
+        "explanation": "Isolated region with high edge complexity detected, possibly an inserted stamp, seal, signature, or text block that was added after original creation."
+      },
+      {
+        "box": [
+          833,
+          1398,
+          279,
+          99
+        ],
+        "type": "Added Content",
+        "severity": 3,
+        "explanation": "Isolated region with high edge complexity detected, possibly an inserted stamp, seal, signature, or text block that was added after original creation."
+      },
+      {
+        "box": [
+          801,
+          1270,
+          84,
+          82
+        ],
+        "type": "Added Content",
+        "severity": 3,
+        "explanation": "Isolated region with high edge complexity detected, possibly an inserted stamp, seal, signature, or text block that was added after original creation."
+      },
+      {
+        "box": [
+          177,
+          557,
+          93,
+          25
+        ],
+        "type": "Content Removed",
+        "severity": 1,
+        "explanation": "Unnaturally smooth patch detected in this region, suggesting potential erasure or background cloning to conceal original text or markings."
+      },
+      {
+        "box": [
+          691,
+          520,
+          157,
+          25
+        ],
+        "type": "Content Removed",
+        "severity": 1,
+        "explanation": "Unnaturally smooth patch detected in this region, suggesting potential erasure or background cloning to conceal original text or markings."
+      },
+      {
+        "box": [
+          357,
+          520,
+          319,
+          26
+        ],
+        "type": "Content Removed",
+        "severity": 1,
+        "explanation": "Unnaturally smooth patch detected in this region, suggesting potential erasure or background cloning to conceal original text or markings."
+      },
+      {
+        "box": [
+          0,
+          490,
+          1414,
+          20
+        ],
+        "type": "Merged Document",
+        "severity": 3,
+        "explanation": "Significant shift in background characteristics detected at the header boundary (intensity difference: 88.7, noise difference: 30.0), suggesting merging of different document sources."
+      },
+      {
+        "box": [
+          556,
+          1685,
+          268,
+          281
+        ],
+        "type": "Watermark Removed",
+        "severity": 1,
+        "explanation": "Irregular background intensity patterns detected in a large area, indicating potential removal of a digital watermark, seal, or repeating background pattern."
+      },
+      {
+        "box": [
+          85,
+          627,
+          101,
+          20
+        ],
+        "type": "Partial Modification",
+        "severity": 3,
+        "explanation": "Text 'Clinical' shows vertical misalignment (6px shift) from baseline. Modified text often shows slight offset from the original document's text baseline."
+      }
+    ],
+    "type_counts": {
+      "Added Content": 4,
+      "Content Removed": 3,
+      "Merged Document": 1,
+      "Watermark Removed": 1,
+      "Partial Modification": 1
+    },
+    "conclusion": "Multiple types of tampering detected (10 issues across 5 categories). Document integrity is compromised. Recommend immediate manual review by a senior forensic analyst.",
+    "summary": {
+      "total_issues": 10,
+      "pages_analyzed": 1,
+      "time_taken": "6.81s",
+      "file_type": "PDF"
+    },
+    "output_image": "/static/outputs/verified_000585__CMJAY_TR_CMJAY_2025_R3_1022010623__SUDHAN_DB_1777639676.pdf.png",
+    "original_image": "/static/uploads/000585__CMJAY_TR_CMJAY_2025_R3_1022010623__SUDHAN_DB_1777639676.pdf",
+    "timestamp": "2026-05-01 18:18:14"
+  }
+]
