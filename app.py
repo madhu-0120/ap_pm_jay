@@ -6,7 +6,6 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 # Import custom utilities
-from utils import preprocessing, ocr_utils
 
 # Import detection modules
 from detection import (
